@@ -17,7 +17,7 @@ namespace SeleniumFirstTask
         [SetUp]
         public void Inicializacia()
         {
-            driver.Navigate().GoToUrl("//www.https://demoqa.com/automation-practice-form/");
+            driver.Navigate().GoToUrl("https://www.demoqa.com/");
             driver.Manage().Window.Maximize();
         }
 
