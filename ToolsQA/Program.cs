@@ -30,6 +30,9 @@ namespace SeleniumFirstTask
             IWebElement lastName = driver.FindElement(By.Id("lastName"));
             lastName.SendKeys("Jovanovic");
 
+            IWebElement currentAddress = driver.FindElement(By.Id("currentAddress"));
+            currentAddress.SendKeys("Beograd");
+
         }
 
         [TearDown]
